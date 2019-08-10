@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Get-The-Lyrics/static/css/main.8c2a8f52.chunk.css",
-    "main.js": "/Get-The-Lyrics/static/js/main.57cb152a.chunk.js",
-    "main.js.map": "/Get-The-Lyrics/static/js/main.57cb152a.chunk.js.map",
+    "main.js": "/Get-The-Lyrics/static/js/main.512011f0.chunk.js",
+    "main.js.map": "/Get-The-Lyrics/static/js/main.512011f0.chunk.js.map",
     "runtime~main.js": "/Get-The-Lyrics/static/js/runtime~main.e8ce2ef3.js",
     "runtime~main.js.map": "/Get-The-Lyrics/static/js/runtime~main.e8ce2ef3.js.map",
-    "static/js/2.1a3a55ec.chunk.js": "/Get-The-Lyrics/static/js/2.1a3a55ec.chunk.js",
-    "static/js/2.1a3a55ec.chunk.js.map": "/Get-The-Lyrics/static/js/2.1a3a55ec.chunk.js.map",
+    "static/js/2.501930e7.chunk.js": "/Get-The-Lyrics/static/js/2.501930e7.chunk.js",
+    "static/js/2.501930e7.chunk.js.map": "/Get-The-Lyrics/static/js/2.501930e7.chunk.js.map",
     "index.html": "/Get-The-Lyrics/index.html",
-    "precache-manifest.55a35d85c580fc8d566000ecef93ba64.js": "/Get-The-Lyrics/precache-manifest.55a35d85c580fc8d566000ecef93ba64.js",
+    "precache-manifest.b9005ad1f46182679517d93fd8bce5df.js": "/Get-The-Lyrics/precache-manifest.b9005ad1f46182679517d93fd8bce5df.js",
     "service-worker.js": "/Get-The-Lyrics/service-worker.js",
     "static/css/main.8c2a8f52.chunk.css.map": "/Get-The-Lyrics/static/css/main.8c2a8f52.chunk.css.map"
   }
