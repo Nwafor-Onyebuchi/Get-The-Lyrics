@@ -24,7 +24,7 @@ const Track = props => {
             : {track.explicit === 0 ? 'No' : 'Yes'}
           </p>
           <Link to={`lyrics/track/${track.track_id}`} className="btn btn-dark btn-block lyrics">
-            <i className="fas fa-chevron-right"></i> View Lyrics
+            <i className="fas fa-chevron-right"></i> View Track Lyrics
           </Link>
         </div>
       </div>
