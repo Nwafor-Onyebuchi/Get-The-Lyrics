@@ -1,3 +1,25 @@
 .fas{
-    color: green;
+    color: #F96816;
+}
+body{
+    background-color: #0E1E24;
+}
+
+.color-change {
+    color: #fff;
+}
+
+.background{
+    background-color: #0E1E24;
+}
+
+.bb{
+    background-color: #F96816;
+    border-radius: 0;
+    border: none;
+}
+
+.bb:hover{
+    background-color: rgb(212, 86, 14);
+    border: none;
 }
