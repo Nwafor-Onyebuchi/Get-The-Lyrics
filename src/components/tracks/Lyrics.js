@@ -37,7 +37,7 @@ import Moment from 'react-moment'
                     <Link to="/" className="btn btn-dark btn-sm mb-4">Go Back</Link>
                     <div className="card">
                         <h5 className="card-header">
-                            {track.track_name} by <span className="text-secondary"> {track.artist_name}</span>
+                            <strong>{track.track_name}</strong> by <span className="text-secondary"> {track.artist_name}</span>
                         </h5>
                         <div className="card-body">
                             <p className="card-text">{lyrics.lyrics_body}</p>
