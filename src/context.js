@@ -9,7 +9,7 @@ const reducer = (state, action) =>{
             return{
                 ...state,
                 track_list: action.payload,
-                heading: 'Search Result'
+                heading: 'Search Results'
             };
             default:
                  return state;

@@ -6,7 +6,7 @@ const Track = props => {
 
   return (
     <div className="col-md-6">
-      <div className="card mb-4 shadow-sm">
+      <div className="card mb-1 shadow-sm">
         <div className="card-body">
           <h4>{track.artist_name}</h4>
           <p>
@@ -23,9 +23,11 @@ const Track = props => {
             </strong>
             : {track.explicit === 0 ? 'No' : 'Yes'}
           </p>
-          <Link to={`lyrics/track/${track.track_id}`} className="btn btn-dark btn-block lyrics">
-            <i className="fas fa-chevron-right"></i> View Track Lyrics
+          <div className="text-right"> 
+          <Link to={`lyrics/track/${track.track_id}`} className="btn btn-dark lyrics">
+            <i className="fas fa-chevron-right"></i> View Lyrics
           </Link>
+          </div>
         </div>
       </div>
     </div>

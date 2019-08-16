@@ -30,7 +30,7 @@ class Search extends Component {
         {value => {
           const { dispatch } = value;
           return (
-            <div className="card card-body mb-4 p-4 background">
+            <div className="card card-body mb-2 p-0 background">
               <h4 className="text-center color-change">
                 <i className="fas fa-search" /> Find a song
               </h4>
@@ -46,7 +46,7 @@ class Search extends Component {
                     onChange={this.onChange}
                     />
                   </div>
-                  <button className="btn btn-primary btn-block btn-lg mb-5 bb" type="submit">Find Song</button>
+                  <button className="btn btn-primary btn-block btn-lg mb-3 bb" type="submit">Find Song</button>
               </form>
             </div>
           );

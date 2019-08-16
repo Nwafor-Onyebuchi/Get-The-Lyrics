@@ -51,7 +51,7 @@ import Moment from 'react-moment'
                             <strong>Song Genre</strong>: {track.primary_genres.music_genre_list.length !== 0 ? track.primary_genres.music_genre_list[0].music_genre.music_genre_name : 'Genre Not Available'} 
                         </li>
                         <li className="list-group-item">
-                            <strong>Explicit Content</strong>: {track.ecplicit === 0 ? 'No' : 'Yes'}
+                            <strong>Explicit Content</strong>: {track.explicit === 0 ? 'No' : 'Yes'}
                         </li>
                         <li className="list-group-item">
                             <strong>Release Date</strong>: <Moment format="DD/MM/YYYY">{track.updated_time}</Moment>
