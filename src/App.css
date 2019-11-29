@@ -26,5 +26,12 @@ body {
 }
 
 .body-margin {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
 }

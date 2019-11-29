@@ -5,6 +5,7 @@ import Index from "./components/layouts/Index";
 import Lyrics from "./components/tracks/Lyrics";
 import { Provider } from "./context";
 import "./App.css";
+import Footer from "./components/layouts/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route exact path='/lyrics/track/:id' component={Lyrics} />
             </Switch>
           </div>
+          <Footer />
         </React.Fragment>
       </Router>
     </Provider>
