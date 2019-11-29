@@ -13,7 +13,7 @@ class Tracks extends Component {
             return <Spinner />;
           } else {
             return (
-              <React.Fragment className='body'>
+              <React.Fragment>
                 <h3 className='text-center mb-4 color-change'>{heading}</h3>
                 <div className='row'>
                   {track_list.map((item) => (
